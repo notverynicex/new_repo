@@ -4,6 +4,8 @@ while True:
     b = int(input())
     if (a>-1) and (b>-1):
         print(f"Thank you for inputting the numbers {a} and {b}")
+        print(f"The sum of the numbers is {a + b}")
+        print(f"The difference of numbers is {a - b}")
         print(f"The result of number multiplication is {a * b}")
         print(f"The result of number division is {a / b}")
         break
